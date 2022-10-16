@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  button{
+    @apply px-4 py-1 rounded-xl bg-primary text-white hover:bg-white hover:text-primary hover:border-primary hover:border-2 border-2 
+  }
+  *{
+    @apply font-raleway
+  }
+ 
+}
